@@ -18,8 +18,8 @@
   },
   "scripts": {
     "dev": "nodemon src/app.ts",
-    "prd": "node dist/app.js",
-    "build": "tsc -p .",
+    "prd": "node src/app.js",
+    "build-ts": "tsc -p .",
     "prd:clean": "rm -rf dist"
   },
   "dependencies": {
